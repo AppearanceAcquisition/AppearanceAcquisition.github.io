@@ -1,7 +1,7 @@
 ---
 layout: page
 title: device
-permalink: /projects/
+permalink: /device/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3

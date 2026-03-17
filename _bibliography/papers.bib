@@ -3,34 +3,218 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@ARTICLE{9557800,
+  author={Kang, Kaizhang and Gu, Minyi and Xie, Cihui and Yang, Xuanda and Wu, Hongzhi and Zhou, Kun},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Neural Reflectance Capture in the View-Illumination Domain}, 
+  year={2023},
+  volume={29},
+  number={2},
+  pages={1450-1462},
+  keywords={Reflectivity;Lighting;Image reconstruction;Cameras;Light emitting diodes;Multiplexing;Light sources;Multi-view illumination multiplexing;neural acquisition},
+  doi={10.1109/TVCG.2021.3117370}}
+
+@article{10.1109/TVCG.2023.3261872,
+author = {Ma, Xiaohe and Yu, Yaxin and Wu, Hongzhi and Zhou, Kun},
+title = {Efficient Reflectance Capture With a Deep Gated Mixture-of-Experts},
+year = {2024},
+issue_date = {July 2024},
+publisher = {IEEE Educational Activities Department},
+address = {USA},
+volume = {30},
+number = {7},
+issn = {1077-2626},
+url = {https://doi.org/10.1109/TVCG.2023.3261872},
+doi = {10.1109/TVCG.2023.3261872},
+abstract = {We present a novel framework to efficiently acquire anisotropic reflectance in a pixel-independent fashion, using a deep gated mixture-of-experts. While existing work employs a unified network to handle all possible input, our network automatically learns to condition on the input for enhanced reconstruction. We train a gating module that takes photometric measurements as input and selects one out of a number of specialized decoders for reflectance reconstruction, essentially trading generality for quality. A common pre-trained latent-transform module is also appended to each decoder, to offset the burden of the increased number of decoders. In addition, the illumination conditions during acquisition can be jointly optimized. The effectiveness of our framework is validated on a wide variety of challenging near-planar samples with a lightstage. Compared with the state-of-the-art technique, our quality is improved with the same number of input images, and our input image number can be reduced to about 1/3 for equal-quality results. We further generalize the framework to enhance a state-of-the-art technique on non-planar reflectance scanning.},
+journal = {IEEE Transactions on Visualization and Computer Graphics},
+month = jul,
+pages = {4246–4256},
+numpages = {11}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@inproceedings {zeng2023nrhints,
+    title      = {Relighting Neural Radiance Fields with Shadow and Highlight Hints},
+    author     = {Chong Zeng and Guojun Chen and Yue Dong and Pieter Peers and Hongzhi Wu and Xin Tong},
+    booktitle  = {ACM SIGGRAPH 2023 Conference Proceedings},
+    year       = {2023}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@INPROCEEDINGS{10203626,
+  author={Xu, Xianmin and Lin, Yuxin and Zhou, Haoyang and Zeng, Chong and Yu, Yaxin and Zhou, Kun and Wu, Hongzhi},
+  booktitle={2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={A Unified Spatial-Angular Structured Light for Single-View Acquisition of Shape and Reflectance}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={206-215},
+  keywords={Reflectivity;Geometry;Computer vision;Shape;Pipelines;Light emitting diodes;Liquid crystal displays;Computational imaging},
+  doi={10.1109/CVPR52729.2023.00028}}
+
+@article{https://doi.org/10.1002/advs.202301136,
+author = {Liu, Changtong and Wang, Yingchao and Zeng, Yixin and Kang, Zirong and Zhao, Hong and Qi, Kun and Wu, Hongzhi and Zhao, Lu and Wang, Yi},
+title = {Use of Deep-Learning Assisted Assessment of Cardiac Parameters in Zebrafish to Discover Cyanidin Chloride as a Novel Keap1 Inhibitor Against Doxorubicin-Induced Cardiotoxicity},
+journal = {Advanced Science},
+volume = {10},
+number = {30},
+pages = {2301136},
+keywords = {cyanidin chloride, deep learning, doxorubicin, Keap1-Nrf2 interaction, zebrafish phenotypic screen},
+doi = {https://doi.org/10.1002/advs.202301136},
+url = {https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/advs.202301136},
+eprint = {https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/advs.202301136},
+abstract = {Abstract Doxorubicin-induced cardiomyopathy (DIC) brings tough clinical challenges as well as continued demand in developing agents for adjuvant cardioprotective therapies. Here, a zebrafish phenotypic screening with deep-learning assisted multiplex cardiac functional analysis using motion videos of larval hearts is established. Through training the model on a dataset of 2125 labeled ventricular images, ZVSegNet and HRNet exhibit superior performance over previous methods. As a result of high-content phenotypic screening, cyanidin chloride (CyCl) is identified as a potent suppressor of DIC. CyCl effectively rescues cardiac cell death and improves heart function in both in vitro and in vivo models of Doxorubicin (Dox) exposure. CyCl shows strong inhibitory effects on lipid peroxidation and mitochondrial damage and prevents ferroptosis and apoptosis-related cell death. Molecular docking and thermal shift assay further suggest a direct binding between CyCl and Keap1, which may compete for the Keap1-Nrf2 interaction, promote nuclear accumulation of Nrf2, and subsequentially transactivate Gpx4 and other antioxidant factors. Site-specific mutation of R415A in Keap1 significantly attenuates the protective effects of CyCl against Dox-induced cardiotoxicity. Taken together, the capability of deep-learning-assisted phenotypic screening in identifying promising lead compounds against DIC is exhibited, and new perspectives into drug discovery in the era of artificial intelligence are provided.},
+year = {2023}
+}
+
+@article{10.1145/3618358,
+author = {Ma, Xiaohe and Xu, Xianmin and Zhang, Leyao and Zhou, Kun and Wu, Hongzhi},
+title = {OpenSVBRDF: A Database of Measured Spatially-Varying Reflectance},
+year = {2023},
+issue_date = {December 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {42},
+number = {6},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3618358},
+doi = {10.1145/3618358},
+abstract = {We present the first large-scale database of measured spatially-varying anisotropic reflectance, consisting of 1,000 high-quality near-planar SVBRDFs, spanning 9 material categories such as wood, fabric and metal. Each sample is captured in 15 minutes, and represented as a set of high-resolution texture maps that correspond to spatially-varying BRDF parameters and local frames. To build this database, we develop a novel integrated system for robust, high-quality and -efficiency reflectance acquisition and reconstruction. Our setup consists of 2 cameras and 16,384 LEDs. We train 64 lighting patterns for efficient acquisition, in conjunction with a network that predicts per-point reflectance in a neural representation from carefully aligned two-view measurements captured under the patterns. The intermediate results are further fine-tuned with respect to the photographs acquired under 63 effective linear lights, and finally fitted to a BRDF model. We report various statistics of the database, and demonstrate its value in the applications of material generation, classification as well as sampling. All related data, including future additions to the database, can be downloaded from https://opensvbrdf.github.io/.},
+journal = {ACM Trans. Graph.},
+month = dec,
+articleno = {254},
+numpages = {14},
+keywords = {SVBRDF, appearance acquisition, dataset, illumination multiplexing}
+}
+
+@inproceedings{10.1145/3610548.3618166,
+author = {Kang, Kaizhang and Bi, Zoubin and Feng, Xiang and Dong, Yican and Zhou, Kun and Wu, Hongzhi},
+title = {Differentiable Dynamic Visible-Light Tomography},
+year = {2023},
+isbn = {9798400703157},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3610548.3618166},
+doi = {10.1145/3610548.3618166},
+abstract = {We propose the first visible-light tomography system for real-time acquisition and reconstruction of general temporally-varying 3D phenomena. Using a single high-speed camera, a high-performance LED array and optical fibers with a total length of 5 km, we build a novel acquisition setup with no mechanical movements to simultaneously sample using 1,920 interleaved sources and detectors with a complete 360 ° coverage. Next, we introduce a novel differentiable framework to map both tomography acquisition and reconstruction to a carefully designed autoencoder. This allows the joint and automatic optimization of both processes in an end-to-end fashion, essentially learning to physically compress and computationally decompress the target information. Our framework can adapt to various factors, and trade between capture speed and reconstruction quality. We achieve an acquisition speed of up to 36.8 volumes per second at a spatial resolution of 32 \texttimes{} 128 \texttimes{} 128; each volume is captured with as few as 8 images. The effectiveness of the system is demonstrated on acquiring various dynamic scenes. Our results are also validated with the reconstructions computed from the measurements with one source on at a time, and compare favorably with state-of-the-art techniques.},
+booktitle = {SIGGRAPH Asia 2023 Conference Papers},
+articleno = {102},
+numpages = {12},
+keywords = {CT, dynamic acquisition, illumination multiplexing},
+location = {Sydney, NSW, Australia},
+series = {SA '23}
+}
+
+@INPROCEEDINGS{10658342,
+  author={Zeng, Yixin and Bi, Zoubin and Yin, Mingrui and Feng, Xiang and Zhou, Kun and Wu, Hongzhi},
+  booktitle={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={Real-Time Acquisition and Reconstruction of Dynamic Volumes with Neural Structured Illumination}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={20186-20195},
+  keywords={Three-dimensional displays;Volume measurement;Pipelines;Lighting;Cameras;Real-time systems;Pattern recognition;dynamic capture;structured light;illumination multiplexing;neural acquisition},
+  doi={10.1109/CVPR52733.2024.01908}}
+
+
+@inproceedings {zeng2024dilightnet,
+    title      = {DiLightNet: Fine-grained Lighting Control for Diffusion-based Image Generation},
+    author     = {Chong Zeng and Yue Dong and Pieter Peers and Youkang Kong and Hongzhi Wu and Xin Tong},
+    booktitle  = {ACM SIGGRAPH 2024 Conference Papers},
+    year       = {2024}
+}
+
+@ARTICLE{10791813,
+author={Feng, Xiang and Kang, Kaizhang and Pei, Fan and Ding, Huakeng and You, Jinjiang and Tan, Ping and Zhou, Kun and Wu, Hongzhi},
+journal={ IEEE Transactions on Visualization \& Computer Graphics },
+title={{ Learning Photometric Feature Transform for Free-Form Object Scan }},
+year={2025},
+volume={31},
+number={09},
+ISSN={1941-0506},
+pages={6398-6409},
+abstract={ We propose a novel framework to automatically learn to aggregate and transform photometric measurements from multiple unstructured views into spatially distinctive and view-invariant low-level features, which are subsequently fed to a multi-view stereo pipeline to enhance 3D reconstruction. The illumination conditions during acquisition and the feature transform are jointly trained on a large amount of synthetic data. We further build a system to reconstruct both the geometry and anisotropic reflectance of a variety of challenging objects from hand-held scans. The effectiveness of the system is demonstrated with a lightweight prototype, consisting of a camera and an array of LEDs, as well as an off-the-shelf tablet. Our results are validated against reconstructions from a professional 3D scanner and photographs, and compare favorably with state-of-the-art techniques. },
+keywords={Lighting;Geometry;Image reconstruction;Cameras;Transforms;Three-dimensional printing;Reflectivity;Light emitting diodes;Shape;Anisotropic},
+doi={10.1109/TVCG.2024.3515478},
+url = {https://doi.ieeecomputersociety.org/10.1109/TVCG.2024.3515478},
+publisher={IEEE Computer Society},
+address={Los Alamitos, CA, USA},
+month=sep}
+
+@inproceedings {bi2024rgs,
+    title      = {GS\textsuperscript{3}: Efficient Relighting with Triple Gaussian Splatting},
+    author     = {Zoubin Bi and Yixin Zeng and Chong Zeng and Fan Pei and Xiang Feng and Kun Zhou and Hongzhi Wu},
+    booktitle  = {SIGGRAPH Asia 2024 Conference Papers},
+    year       = {2024}
+}
+
+@article{feng2024splashing,
+  title={Gaussian Splashing: Unified Particles for Versatile Motion Synthesis and Rendering},
+  author={Feng, Yutao and Feng, Xiang and Shang, Yintong and Jiang, Ying and Yu, Chang and Zong, Zeshun and Shao, Tianjia and Wu, Hongzhi and Zhou, Kun and Jiang, Chenfanfu and Yang, Yin},
+  journal={arXiv preprint arXiv:2401.15318},
+  year={2024}
+}
+
+@article{feng2024arm,
+  title={ARM: Appearance Reconstruction Model for Relightable 3D Generation},
+  author={Xiang Feng and Chang Yu and Zoubin Bi and Yintong Shang and Feng Gao and Hongzhi Wu and Kun Zhou and Chenfanfu Jiang and Yin Yang},
+  journal={arXiv preprint arXiv:2411.10825},
+  year={2024}
+}
+
+@inproceedings {zeng2025renderformer,
+    title      = {RenderFormer: Transformer-based Neural Rendering of Triangle Meshes with Global Illumination},
+    author     = {Chong Zeng and Yue Dong and Pieter Peers and Hongzhi Wu and Xin Tong},
+    booktitle  = {ACM SIGGRAPH 2025 Conference Papers},
+    year       = {2025}
+}
+
+@article{10.1145/3731199,
+author = {Ma, Xiaohe and Deschaintre, Valentin and Ha\v{s}an, Milo\v{s} and Luan, Fujun and Zhou, Kun and Wu, Hongzhi and Hu, Yiwei},
+title = {MaterialPicker: Multi-Modal DiT-Based Material Generation},
+year = {2025},
+issue_date = {August 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {44},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3731199},
+doi = {10.1145/3731199},
+abstract = {High-quality material generation is key for virtual environment authoring and inverse rendering. We propose MaterialPicker, a multi-modal material generator leveraging a Diffusion Transformer (DiT) architecture, improving and simplifying the creation of high-quality materials from text prompts and/or photographs. Our method can generate a material based on an image crop of a material sample, even if the captured surface is distorted, viewed at an angle or partially occluded, as is often the case in photographs of natural scenes. We further allow the user to specify a text prompt to provide additional guidance for the generation. We finetune a pre-trained DiT-based video generator into a material generator, where each material map is treated as a frame in a video sequence. We evaluate our approach both quantitatively and qualitatively and show that it enables more diverse material generation and better distortion correction than previous work.},
+journal = {ACM Trans. Graph.},
+month = jul,
+articleno = {133},
+numpages = {12},
+keywords = {material appearance, capture, generative models}
+}
+
+@InProceedings{Pei_2025_ICCV,
+    author    = {Pei, Fan and Bai, Jinchen and Feng, Xiang and Bi, Zoubin and Zhou, Kun and Wu, Hongzhi},
+    title     = {OpenSubstance: A High-quality Measured Dataset of Multi-View and -Lighting Images and Shapes},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {5221-5231}
+}
+
+@article{10.1145/3763275,
+author = {Zeng, Yixin and Choi, Kiseok and Amata, Hadi and Kang, Kaizhang and Heidrich, Wolfgang and Wu, Hongzhi and Kim, Min H.},
+title = {Designing and Fabricating Color BRDFs with Differentiable Wave Optics},
+year = {2025},
+issue_date = {December 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {44},
+number = {6},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3763275},
+doi = {10.1145/3763275},
+abstract = {Modeling surface reflectance is central to connecting optical theory with real-world rendering and fabrication. While analytic BRDFs remain standard in rendering, recent advances in geometric and wave optics have expanded the design space for complex reflectance effects. However, existing wave-optics-based methods are limited to controlling reflectance intensity only, lacking the ability to design full-spectrum, color-dependent BRDFs. In this work, we present the first method for designing and fabricating color BRDFs using a fully differentiable wave optics framework. Our differentiable and memory-efficient simulation framework supports end-to-end optimization of microstructured surfaces under scalar diffraction theory, enabling joint control over both angular intensity and spectral color of reflectance. We leverage grayscale lithography with a feature size of 1.5–2.0 μm to fabricate 15 BRDFs spanning four representative categories: anti-mirrors, pictorial reflections, structural colors, and iridescences. Compared to prior work, our approach achieves significantly higher fidelity and broader design flexibility, producing physically accurate and visually compelling results. By providing a practical and extensible solution for full-color BRDF design and fabrication, our method opens up new opportunities in structural coloration, product design, security printing, and advanced manufacturing.},
+journal = {ACM Trans. Graph.},
+month = dec,
+articleno = {241},
+numpages = {17},
+keywords = {BRDF design, BRDF fabrication, reflectance modeling, structural color, wave optics}
 }
 
 @article{PhysRev.47.777,
@@ -61,48 +245,12 @@
   inspirehep_id     = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
 @article{einstein1905electrodynamics,
   title  = {On the electrodynamics of moving bodies},
   author = {Einstein, A.},
   year   = {1905}
 }
 
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
 
 @book{przibram1967letters,
   bibtex_show = {true},
