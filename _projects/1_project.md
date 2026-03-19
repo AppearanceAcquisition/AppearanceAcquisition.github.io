@@ -8,6 +8,6 @@ description: |
 img: 
 importance: 1
 category: 
-related_publications: true
+related_publications: false
 redirect: false
 ---
