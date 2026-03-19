@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-patents",
           title: "patents",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/patents/";
@@ -404,7 +404,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-freestyle-acquisition-method-for-high-dimensional-material",
           title: 'Freestyle Acquisition Method For High-Dimensional Material',
-          description: "2025-11-25",
+          description: "Wu, Hongzhi; Zhou, Kun; Ma, Xiaohe2025-11-25美国, US 12,482,179B2",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
