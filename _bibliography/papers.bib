@@ -65,23 +65,6 @@ preview={moe_arxiv.jpg}
   preview={unified.jpg}
 }
 
-@article{https://doi.org/10.1002/advs.202301136,
-author = {Liu, Changtong and Wang, Yingchao and Zeng, Yixin and Kang, Zirong and Zhao, Hong and Qi, Kun and Wu, Hongzhi and Zhao, Lu and Wang, Yi},
-title = {Use of Deep-Learning Assisted Assessment of Cardiac Parameters in Zebrafish to Discover Cyanidin Chloride as a Novel Keap1 Inhibitor Against Doxorubicin-Induced Cardiotoxicity},
-journal = {Advanced Science},
-volume = {10},
-number = {30},
-pages = {2301136},
-keywords = {cyanidin chloride, deep learning, doxorubicin, Keap1-Nrf2 interaction, zebrafish phenotypic screen},
-doi = {https://doi.org/10.1002/advs.202301136},
-url = {https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/advs.202301136},
-eprint = {https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/advs.202301136},
-abstract = {Abstract Doxorubicin-induced cardiomyopathy (DIC) brings tough clinical challenges as well as continued demand in developing agents for adjuvant cardioprotective therapies. Here, a zebrafish phenotypic screening with deep-learning assisted multiplex cardiac functional analysis using motion videos of larval hearts is established. Through training the model on a dataset of 2125 labeled ventricular images, ZVSegNet and HRNet exhibit superior performance over previous methods. As a result of high-content phenotypic screening, cyanidin chloride (CyCl) is identified as a potent suppressor of DIC. CyCl effectively rescues cardiac cell death and improves heart function in both in vitro and in vivo models of Doxorubicin (Dox) exposure. CyCl shows strong inhibitory effects on lipid peroxidation and mitochondrial damage and prevents ferroptosis and apoptosis-related cell death. Molecular docking and thermal shift assay further suggest a direct binding between CyCl and Keap1, which may compete for the Keap1-Nrf2 interaction, promote nuclear accumulation of Nrf2, and subsequentially transactivate Gpx4 and other antioxidant factors. Site-specific mutation of R415A in Keap1 significantly attenuates the protective effects of CyCl against Dox-induced cardiotoxicity. Taken together, the capability of deep-learning-assisted phenotypic screening in identifying promising lead compounds against DIC is exhibited, and new perspectives into drug discovery in the era of artificial intelligence are provided.},
-year = {2023},
-pdf = {1.pdf},
-preview={zebrafish.jpg}
-}
-
 @article{10.1145/3618358,
 author = {Ma, Xiaohe and Xu, Xianmin and Zhang, Leyao and Zhou, Kun and Wu, Hongzhi},
 title = {OpenSVBRDF: A Database of Measured Spatially-Varying Reflectance},
@@ -181,24 +164,6 @@ preview={ipad.jpg}
     preview={tripleGS.jpg}
 }
 
-@article{feng2024splashing,
-  title={Gaussian Splashing: Unified Particles for Versatile Motion Synthesis and Rendering},
-  author={Feng, Yutao and Feng, Xiang and Shang, Yintong and Jiang, Ying and Yu, Chang and Zong, Zeshun and Shao, Tianjia and Wu, Hongzhi and Zhou, Kun and Jiang, Chenfanfu and Yang, Yin},
-  journal={arXiv preprint arXiv:2401.15318},
-  year={2024},
-  html={https://gaussiansplashing.github.io/},
-  preview={splash.jpg}
-}
-
-@article{feng2024arm,
-  title={ARM: Appearance Reconstruction Model for Relightable 3D Generation},
-  author={Xiang Feng and Chang Yu and Zoubin Bi and Yintong Shang and Feng Gao and Hongzhi Wu and Kun Zhou and Chenfanfu Jiang and Yin Yang},
-  journal={arXiv preprint arXiv:2411.10825},
-  year={2024},
-  html={https://arm-aigc.github.io/},
-  preview={arm.jpg}
-}
-
 @inproceedings {zeng2025renderformer,
     title      = {RenderFormer: Transformer-based Neural Rendering of Triangle Meshes with Global Illumination},
     author     = {Chong Zeng and Yue Dong and Pieter Peers and Hongzhi Wu and Xin Tong},
@@ -260,4 +225,35 @@ articleno = {241},
 numpages = {17},
 keywords = {BRDF design, BRDF fabrication, reflectance modeling, structural color, wave optics},
 preview={fab.jpg},
+}
+
+@inproceedings{ye20243d,
+  title={3d gaussian splatting with deferred reflection},
+  author={Ye, Keyang and Hou, Qiming and Zhou, Kun},
+  booktitle={ACM SIGGRAPH 2024 Conference Papers},
+  pages={1--10},
+  year={2024},
+  pdf={3dgs.pdf},
+  preview={3dgs.png},
+  video={https://youtu.be/3SsQZNXQBs8},
+  html={https://gapszju.github.io/3DGS-DR/},
+  doi={https://doi.org/10.1145/3641519.3657456},
+  abstract={The advent of neural and Gaussian-based radiance field methods have achieved great success in the field of novel view synthesis. However, specular reflection remains non-trivial, as the high frequency radiance field is notoriously difficult to fit stably and accurately. We present a deferred shading method to effectively render specular reflection with Gaussian splatting. The key challenge comes from the environment map reflection model, which requires accurate surface normal while simultaneously bottlenecks normal estimation with discontinuous gradients. We leverage the per-pixel reflection gradients generated by deferred shading to bridge the optimization process of neighboring Gaussians, allowing nearly correct normal estimations to gradually propagate and eventually spread over all reflective objects. Our method significantly outperforms state-of-the-art techniques and concurrent work in synthesizing high-quality specular reflection effects, demonstrating a consistent improvement of peak signal-to-noise ratio (PSNR) for both synthetic and real-world scenes, while running at a frame rate almost identical to vanilla Gaussian splatting.}
+}
+
+@article{ye2025gaussian,
+  title={When gaussian meets surfel: Ultra-fast high-fidelity radiance field rendering},
+  author={Ye, Keyang and Shao, Tianjia and Zhou, Kun},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={44},
+  number={4},
+  pages={1--15},
+  year={2025},
+  publisher={ACM New York, NY, USA},
+  pdf={ges.pdf},
+  preview={ges.png},
+  video={https://youtu.be/DlzzQ1YYsHE},
+  html={https://yessioncc.github.io/ges_web/},
+  doi={https://doi.org/10.1145/3730925},
+  abstract={We introduce Gaussian-enhanced Surfels (GESs), a bi-scale representation for radiance field rendering, wherein a set of 2D opaque surfels with view-dependent colors represent the coarse-scale geometry and appearance of scenes, and a few 3D Gaussians surrounding the surfels supplement fine-scale appearance details. The rendering with GESs consists of two passes - surfels are first rasterized through a standard graphics pipeline to produce depth and color maps, and then Gaussians are splatted with depth testing and color accumulation on each pixel order independently. The optimization of GESs from multi-view images is performed through an elaborate coarse-to-fine procedure, faithfully capturing rich scene appearance. The entirely sorting-free rendering of GESs not only achieves very fast rates, but also produces view-consistent images, successfully avoiding popping artifacts under view changes. The basic GES representation can be easily extended to achieve antialiasing in rendering (Mip-GES), boosted rendering speeds (Speedy-GES) and compact storage (Compact-GES), and reconstruct better scene geometries by replacing 3D Gaussians with 2D Gaussians (2D-GES). Experimental results show that GESs advance the state-of-the-arts as a compelling representation for ultra-fast high-fidelity radiance field rendering.}
 }
