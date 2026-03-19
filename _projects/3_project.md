@@ -5,7 +5,6 @@ description: |
     吴鸿智; 周昆; 马晓鹤
     2025-08-19
     中国, CN202310783568.4
-img: 
 importance: 1
 category: 
 related_publications: false
