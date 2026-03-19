@@ -407,46 +407,21 @@ ninja.data = [{
           description: "Wu, Hongzhi; Zhou, Kun; Ma, Xiaohe2025-11-25美国, US 12,482,179B2",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-高次元マテリアルの自由式収集方法",
+          title: '高次元マテリアルの自由式収集方法',
+          description: "吴鸿智; 周昆; 马晓鹤2025-06-05日本, 7692224",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-一种基于神经网络的平面材质数据库的采集方法及系统",
+          title: '一种基于神经网络的平面材质数据库的采集方法及系统',
+          description: "吴鸿智; 周昆; 马晓鹤2025-08-19中国, CN202310783568.4",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-针对单视角下几何和材质高精度采集的结构光方法",
+          title: '针对单视角下几何和材质高精度采集的结构光方法',
+          description: "吴鸿智; 林雨欣; 周昆2025-10-23中国, CN202310400256.0",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
