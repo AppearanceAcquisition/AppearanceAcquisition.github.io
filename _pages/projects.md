@@ -1,12 +1,12 @@
 ---
 layout: page
-title: device
-permalink: /device/
+title: patents
+permalink: /patents/
 description: A growing collection of your cool projects.
-nav: false
+nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: 
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
